@@ -15,20 +15,12 @@ def _fmt(par, sufijo="%"):
 
 
 def grafico(resumen, destino):
-    t = resumen["por_sector"]
-    d = resumen["descartes"]
-    calidad = ""
-    if d:
-        calidad = (f"- Anuncios recibidos: {d['anuncios_crudos']}; quedaron {d['anuncios_limpios']} tras la limpieza.\n"
-                   + "\n".join(f"- Descartados por {k.replace('_', ' ')}: {v}" for k, v in d.items()
-                                if k not in ("anuncios_crudos", "anuncios_limpios", "precio_corregido_por_punto_de_miles") and v)
-                   + f"\n- Precios corregidos por punto de miles: {d['precio_corregido_por_punto_de_miles']}\n")
-    nota_respaldo = "\n> Esta corrida usó datos de respaldo: no se guardó en el histórico ni se calculó alerta.\n" if resumen["es_respaldo"] else "".sort_values("mediana_m2")
+    t = resumen["por_sector"].nlargest(15, "anuncios").sort_values("mediana_m2")   # los 15 sectores con más anuncios
     fig, ax = plt.subplots(figsize=(9, 5))
     ax.barh(t["sector"], t["mediana_m2"], color=AZUL)
     ax.barh(t["sector"].iloc[-1:], t["mediana_m2"].iloc[-1:], color=MAGENTA)
     ax.set_xlabel("Precio mediano por m² (USD)")
-    ax.set_title(f"Mercado inmobiliario de {config.CIUDAD}: precio por m² según sector")
+    ax.set_title(f"{config.CIUDAD}: precio por m² en los 15 sectores con más anuncios")
     ax.grid(axis="x", color=GRIS)
     ax.set_axisbelow(True)
     for lado in ("top", "right"):
@@ -45,7 +37,7 @@ def escribir(resumen):
     grafico(resumen, png)
     cambio = "primera corrida: aún no hay con qué comparar" if resumen["cambio_pct"] is None else f"{resumen['cambio_pct']:+.2f} % contra la corrida anterior"
     aviso = "ALERTA: el cambio supera el umbral." if resumen["alerta"] else "Sin alerta."
-    t = resumen["por_sector"]
+    t = resumen["por_sector"].nlargest(20, "anuncios")
     d = resumen["descartes"]
     calidad = ""
     if d:
@@ -66,7 +58,7 @@ Reporte del {hoy}
 {nota_respaldo}
 ## Calidad de los datos
 {calidad}
-## Por sector
+## Por sector (los 20 con más anuncios)
 | Sector | Anuncios | Mediana USD/m² | Precio mediano USD |
 |---|---|---|---|
 {filas}
