@@ -1,4 +1,10 @@
-# Fuente 2b: crecimiento del PIB según el FMI (DataMapper).
+# ============================================================================
+# ARCHIVO: fuentes/fmi.py        (un BUSCADOR (fuente 2b))
+# QUÉ HACE:  Pide el crecimiento esperado del PIB al FMI (DataMapper).
+# RECIBE:    Nada. Usa país, años e indicador de config.py.
+# ENTREGA:   Una tabla año, indicador, valor. Si falla, entrega el respaldo.
+# ESTO PUEDES CAMBIARLO EN TU PROYECTO: el indicador y el país en config.py.
+# ============================================================================
 import pandas as pd
 import requests
 
@@ -6,6 +12,7 @@ import config
 
 
 def traer():
+    # Intenta el dato en vivo; si algo falla, usa el respaldo y lo avisa.
     if config.MODO != "respaldo":
         try:
             anios = ",".join(str(a) for a in range(config.BM_DESDE, config.BM_HASTA + 2))

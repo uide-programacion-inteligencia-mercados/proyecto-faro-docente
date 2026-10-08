@@ -1,4 +1,10 @@
-# Fuente 2a: indicadores del Banco Mundial para Ecuador.
+# ============================================================================
+# ARCHIVO: fuentes/banco_mundial.py        (un BUSCADOR (fuente 2a))
+# QUÉ HACE:  Pide indicadores económicos (inflación, PIB, crédito) a la API pública del Banco Mundial.
+# RECIBE:    Nada. Usa país, años e indicadores de config.py.
+# ENTREGA:   Una tabla año, indicador, valor. Si falla, entrega el respaldo.
+# ESTO PUEDES CAMBIARLO EN TU PROYECTO: los indicadores (códigos en config.py) y el país.
+# ============================================================================
 import pandas as pd
 import requests
 
@@ -6,6 +12,7 @@ import config
 
 
 def _uno(codigo, nombre):
+    # Pide UN indicador a la API y lo convierte en tabla.
     url = (f"https://api.worldbank.org/v2/country/{config.PAIS}/indicator/{codigo}"
            f"?format=json&date={config.BM_DESDE}:{config.BM_HASTA}&per_page=100")
     r = requests.get(url, timeout=30)
@@ -19,6 +26,7 @@ def _uno(codigo, nombre):
 
 
 def traer():
+    # Intenta los indicadores en vivo; si algo falla, usa el respaldo y lo avisa.
     if config.MODO != "respaldo":
         try:
             return pd.concat([_uno(c, n) for n, c in config.BM_INDICADORES.items()], ignore_index=True)

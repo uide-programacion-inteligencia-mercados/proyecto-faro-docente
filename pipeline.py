@@ -1,4 +1,12 @@
-# El pipeline del Observatorio de Referencia: BUSCAR, GUARDAR, LIMPIAR, CONTROLAR, ANALIZAR, MOSTRAR.
+# ============================================================================
+# ARCHIVO: pipeline.py        (el PLANO y el PUNTO DE PARTIDA)
+# QUÉ HACE:  Define las tareas del robot, de quién depende cada una, y la función main() que las lanza con el orquestador.
+# RECIBE:    Los datos que traen los archivos de fuentes/ y las reglas de config.py.
+# ENTREGA:   Tablas guardadas en data/, el reporte en reports/ y el registro en logs/. Termina con éxito o con error.
+# ESTO PUEDES CAMBIARLO EN TU PROYECTO: las tareas y sus dependencias (diccionario TAREAS). Aquí agregas o quitas fuentes y pasos.
+# ============================================================================
+# Secuencia: BUSCAR, GUARDAR, LIMPIAR, CONTROLAR, ANALIZAR, MOSTRAR.
+# Cada función t_xxx es UNA tarea: recibe lo que entregó la anterior y entrega su resultado.
 import sys
 
 import config
@@ -10,10 +18,12 @@ from fuentes import banco_mundial, fmi, remax
 
 
 def guardar(df, nombre):
+    # Escribe una tabla como archivo CSV dentro de la carpeta data/.
     config.DATOS.mkdir(parents=True, exist_ok=True)
     df.to_csv(config.DATOS / nombre, index=False)                     # GUARDAR
 
 
+# --- TAREAS DE BÚSQUEDA: cada una pide datos a una fuente y guarda la copia cruda ---
 def t_remax():
     df = remax.traer()
     guardar(df, "remax_crudo.csv")
@@ -32,6 +42,7 @@ def t_fmi():
     return df
 
 
+# --- TAREA DE LIMPIEZA: recibe los tres datos crudos y entrega tablas limpias ---
 def t_limpiar(remax, banco_mundial, fmi):
     import pandas as pd
     anuncios, descartes = limpieza.limpiar_con_descartes(remax)
@@ -54,15 +65,19 @@ def t_control_calidad(limpiar):
     return limpiar
 
 
+# --- TAREA DE ANÁLISIS: las cifras que responden la pregunta de negocio ---
 def t_analizar(control_calidad):
     return analisis.analizar(control_calidad["anuncios"], control_calidad["macro"], control_calidad["descartes"])
 
 
+# --- TAREA DE REPORTE: convierte las cifras en gráfico y texto ---
 def t_reportar(analizar):
     return reporte.escribir(analizar)
 
 
-# El DAG: cada tarea dice de quién depende.
+# EL PLANO (llamado DAG): cada tarea dice quién es y de quién depende.
+# Formato:  "nombre": (función, ["tareas que deben terminar antes"])
+# El orquestador ordena todo solo; tú solo describes las dependencias.
 TAREAS = {
     "remax": (t_remax, []),
     "banco_mundial": (t_banco_mundial, []),
@@ -75,6 +90,8 @@ TAREAS = {
 
 
 def main():
+    # Lanza el orquestador, guarda el registro y avisa con un código de salida:
+    # 0 = todo bien (círculo verde en GitHub), 1 = hubo fallas (círculo rojo).
     print(f"Observatorio de Referencia · modo {config.MODO}")
     _, registro = orquestador.ejecutar(TAREAS)
     orquestador.guardar_registro(registro)

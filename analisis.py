@@ -1,14 +1,23 @@
-# Paso ANALIZAR: una tabla por sector, el cambio contra la corrida anterior y el cruce con la macro.
+# ============================================================================
+# ARCHIVO: analisis.py        (la CALCULADORA)
+# QUÉ HACE:  Responde la pregunta de negocio con números: mediana por sector, cambio contra la corrida anterior y cruce con la economía.
+# RECIBE:    Las tablas limpias que aprobó el portero.
+# ENTREGA:   Un diccionario de cifras para el reporte y el histórico data/historico/resumen_diario.csv.
+# ESTO PUEDES CAMBIARLO EN TU PROYECTO: el cálculo: aquí van los indicadores que responden la pregunta de tu proyecto.
+# ============================================================================
 from datetime import date
 
 import pandas as pd
 
 import config
 
+# La memoria del robot: una fila por día con la mediana de ese día.
 ARCHIVO_RESUMEN = config.HISTORICO / "resumen_diario.csv"
 
 
 def resumen_por_sector(anuncios):
+    # Agrupa por sector y calcula cuántos anuncios hay y su mediana (el valor del medio).
+    # La mediana resiste mejor que el promedio a un precio exagerado.
     t = (anuncios.groupby("sector")
          .agg(anuncios=("id", "count"), mediana_m2=("precio_m2", "median"), precio_mediano=("precio_usd", "median"))
          .round(0).sort_values("mediana_m2", ascending=False).reset_index())
@@ -16,12 +25,14 @@ def resumen_por_sector(anuncios):
 
 
 def ultimo_valor(macro, indicador):
+    # Devuelve (año, valor) del último dato económico disponible de un indicador.
     # Solo años ya cerrados: el año en curso del FMI es una proyección.
     s = macro[(macro["indicador"] == indicador) & (macro["anio"] < date.today().year)].sort_values("anio")
     return None if s.empty else (int(s.iloc[-1]["anio"]), float(s.iloc[-1]["valor"]))
 
 
 def cambio_contra_anterior(mediana_hoy):
+    # Cuánto cambió la mediana de hoy (en %) frente a la última corrida guardada.
     # Compara con la última corrida de un día distinto a hoy.
     if not ARCHIVO_RESUMEN.exists():
         return None
@@ -34,6 +45,7 @@ def cambio_contra_anterior(mediana_hoy):
 
 
 def guardar_resumen(n, mediana_m2):
+    # Agrega la fila de hoy al histórico (una por día; si corre dos veces, reemplaza).
     config.HISTORICO.mkdir(parents=True, exist_ok=True)
     hoy = date.today().isoformat()
     nueva = pd.DataFrame([{"fecha": hoy, "anuncios": n, "mediana_m2": mediana_m2}])
@@ -45,6 +57,7 @@ def guardar_resumen(n, mediana_m2):
 
 
 def analizar(anuncios, macro, descartes=None):
+    # La función principal: junta todas las cifras en un diccionario que lee el reporte.
     mediana = float(anuncios["precio_m2"].median())
     origen = ", ".join(sorted(anuncios["origen"].unique()))
     es_respaldo = "respaldo" in origen

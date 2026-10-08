@@ -1,4 +1,10 @@
-# Paso MOSTRAR e INFORMAR: un gráfico y un reporte en texto.
+# ============================================================================
+# ARCHIVO: reporte.py        (el REPORTERO)
+# QUÉ HACE:  Convierte las cifras en algo que se puede leer: un gráfico de barras y un reporte en texto (Markdown).
+# RECIBE:    El diccionario de cifras que entregó la calculadora.
+# ENTREGA:   reports/ultimo.md, reports/reporte_FECHA.md y reports/precio_m2_FECHA.png.
+# ESTO PUEDES CAMBIARLO EN TU PROYECTO: los textos, el gráfico y los colores. Cambia la pregunta que el reporte responde.
+# ============================================================================
 from datetime import date
 
 import matplotlib
@@ -7,14 +13,17 @@ import matplotlib.pyplot as plt
 
 import config
 
+# Colores de la marca del curso.
 AZUL, MAGENTA, ORO, GRIS = "#002C71", "#910048", "#EAAA00", "#E7E6E6"
 
 
 def _fmt(par, sufijo="%"):
+    # Convierte (año, valor) en texto legible, por ejemplo "3.7% (2024)".
     return "sin dato" if par is None else f"{par[1]:.1f}{sufijo} ({par[0]})"
 
 
 def grafico(resumen, destino):
+    # Dibuja barras horizontales con el precio por m² de los sectores con más anuncios.
     t = resumen["por_sector"].nlargest(15, "anuncios").sort_values("mediana_m2")   # los 15 sectores con más anuncios
     fig, ax = plt.subplots(figsize=(9, 5))
     ax.barh(t["sector"], t["mediana_m2"], color=AZUL)
@@ -31,6 +40,7 @@ def grafico(resumen, destino):
 
 
 def escribir(resumen):
+    # Arma el gráfico y el texto del reporte, y los guarda en la carpeta reports/.
     config.REPORTES.mkdir(parents=True, exist_ok=True)
     hoy = date.today().isoformat()
     png = config.REPORTES / f"precio_m2_{hoy}.png"

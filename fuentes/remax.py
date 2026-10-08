@@ -1,4 +1,10 @@
-# Fuente 1: anuncios de RE/MAX Ecuador, leídos de la API pública que usa su propio sitio web.
+# ============================================================================
+# ARCHIVO: fuentes/remax.py        (un BUSCADOR (fuente 1))
+# QUÉ HACE:  Pide los anuncios inmobiliarios a la API pública de RE/MAX y los ordena en una tabla con columnas fijas.
+# RECIBE:    Nada. Usa la dirección y los límites de config.py.
+# ENTREGA:   Una tabla de anuncios de Quito. Si la fuente falla, entrega la copia de respaldo.
+# ESTO PUEDES CAMBIARLO EN TU PROYECTO: la dirección de la fuente, qué se filtra (por ciudad) y las columnas. Es el archivo que más cambia entre proyectos.
+# ============================================================================
 import time
 from datetime import date
 
@@ -7,11 +13,13 @@ import requests
 
 import config
 
+# Las columnas que SIEMPRE entrega, para que el resto del código no se confunda.
 COLUMNAS = ["id", "titulo", "sector", "tipo", "operacion", "precio_usd", "area_m2",
             "area_terreno_m2", "dormitorios", "banos", "estado", "fecha_captura", "origen"]
 
 
 def _valor(d, clave):
+    # Algunos datos vienen como {"value": ...}; esta función saca el valor en ambos casos.
     v = d.get(clave)
     return v.get("value") if isinstance(v, dict) else v
 
@@ -40,6 +48,7 @@ def normalizar(a):
     }
 
 
+# --- Lee la fuente real, página por página (con una pausa de cortesía) ---
 def traer_en_vivo():
     filas, vistas = [], 0
     for pagina in range(config.REMAX_MAX_PAGINAS):
@@ -62,12 +71,14 @@ def traer_en_vivo():
     return df.reindex(columns=COLUMNAS)
 
 
+# --- Plan B: lee la copia guardada en data/respaldo/ ---
 def traer_respaldo():
     df = pd.read_csv(config.RESPALDO / "respaldo_remax.csv")
     df["fecha_captura"] = date.today().isoformat()
     return df.reindex(columns=COLUMNAS)
 
 
+# --- La función que usa el pipeline: intenta la fuente real; si falla, el respaldo ---
 def traer():
     if config.MODO != "respaldo":
         try:
