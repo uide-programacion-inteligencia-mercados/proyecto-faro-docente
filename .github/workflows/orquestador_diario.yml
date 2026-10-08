@@ -1,0 +1,58 @@
+name: Orquestador diario del Observatorio
+
+on:
+  schedule:
+    - cron: "0 11 * * *"      # 11:00 UTC = 06:00 en Quito, todos los días
+  workflow_dispatch:           # también se puede lanzar a mano desde la pestaña Actions
+
+permissions:
+  contents: write              # necesario para guardar los datos nuevos en el repositorio
+
+concurrency:
+  group: orquestador-diario
+  cancel-in-progress: false
+
+jobs:
+  correr-pipeline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Traer el código
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Instalar lo necesario
+        run: pip install -r requirements.txt
+
+      - name: Probar que el código funciona (usa los respaldos, no sale a internet)
+        run: FARO_MODO=respaldo python -m pytest -q
+
+      - name: Correr el pipeline (fuentes reales, con respaldo si fallan)
+        run: python pipeline.py
+
+      - name: Guardar el reporte de hoy como archivo descargable
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reporte-${{ github.run_number }}
+          path: |
+            reports/
+            logs/ultima_corrida.json
+          if-no-files-found: ignore
+
+      - name: Guardar los datos nuevos en el repositorio
+        run: |
+          git config user.name "observatorio-bot"
+          git config user.email "observatorio-bot@users.noreply.github.com"
+          git add data/ reports/ logs/
+          if git diff --cached --quiet; then
+            echo "No hay cambios que guardar."
+          else
+            git commit -m "Datos y reporte del $(date -u +%Y-%m-%d)"
+            git push
+          fi
