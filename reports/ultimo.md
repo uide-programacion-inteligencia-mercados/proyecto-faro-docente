@@ -1,22 +1,22 @@
 # Observatorio de Referencia · Mercado inmobiliario de Quito
-Reporte del 2026-10-11
+Reporte del 2026-10-12
 
 ## Lo más importante
-- Anuncios analizados: **1070**
-- Precio mediano por m²: **USD 643** (-0.13 % contra la corrida anterior)
+- Anuncios analizados: **1071**
+- Precio mediano por m²: **USD 642** (-0.11 % contra la corrida anterior)
 - Sin alerta. (umbral: 5.0 %)
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2346; quedaron 1070 tras la limpieza.
-- Descartados por no es venta: 399
-- Descartados por no es vivienda: 686
-- Descartados por no esta activo: 115
+- Anuncios recibidos: 2360; quedaron 1071 tras la limpieza.
+- Descartados por no es venta: 406
+- Descartados por no es vivienda: 689
+- Descartados por no esta activo: 117
 - Descartados por sin precio: 2
 - Descartados por area imposible: 9
 - Descartados por duplicado con otro id: 6
 - Descartados por precio m2 imposible: 1
-- Descartados por precio m2 extremo: 58
+- Descartados por precio m2 extremo: 59
 - Precios corregidos por punto de miles: 3
 
 ## Por sector (los 20 con más anuncios)
@@ -25,25 +25,25 @@ Reporte del 2026-10-11
 | Conocoto | 56 | 572 | 105,000 |
 | Iñaquito | 37 | 874 | 155,000 |
 | Tumbaco | 35 | 828 | 181,500 |
-| Calderón (Carapungo) | 32 | 574 | 74,962 |
 | Quito Tenis | 30 | 749 | 204,250 |
-| Cumbayá | 28 | 954 | 270,000 |
+| Calderón (Carapungo) | 30 | 601 | 74,962 |
+| Cumbayá | 27 | 966 | 281,900 |
 | Rumipamba | 27 | 838 | 149,000 |
 | Bellavista | 25 | 920 | 249,000 |
 | El Condado | 24 | 581 | 144,000 |
-| Cotocollao | 22 | 808 | 70,557 |
+| Cotocollao | 23 | 805 | 72,080 |
+| Carcelén | 20 | 548 | 87,500 |
 | Ponceano | 19 | 739 | 86,000 |
-| Carcelén | 19 | 564 | 86,000 |
-| Cochapamba | 18 | 555 | 125,000 |
-| Pomasqui | 15 | 543 | 115,000 |
+| Cochapamba | 18 | 555 | 122,500 |
+| Pomasqui | 16 | 556 | 112,500 |
 | Kennedy | 13 | 691 | 108,000 |
 | San Antonio | 12 | 534 | 84,000 |
 | San Isidro Del Inca | 11 | 748 | 93,000 |
+| Alangasí | 11 | 515 | 144,000 |
+| Belisario Quevedo | 10 | 867 | 103,500 |
 | Union Nacional | 10 | 740 | 125,000 |
-| Mariscal Sucre | 10 | 719 | 117,000 |
-| Alangasí | 10 | 502 | 179,500 |
 
-![Precio por m²](precio_m2_2026-10-11.png)
+![Precio por m²](precio_m2_2026-10-12.png)
 
 ## El entorno económico del Ecuador
 - Inflación anual (Banco Mundial): 0.7% (2025)
