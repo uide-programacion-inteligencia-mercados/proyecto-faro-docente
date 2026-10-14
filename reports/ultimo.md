@@ -1,19 +1,20 @@
 # Observatorio de Referencia · Mercado inmobiliario de Quito
-Reporte del 2026-10-13
+Reporte del 2026-10-14
 
 ## Lo más importante
-- Anuncios analizados: **1078**
-- Precio mediano por m²: **USD 644** (+0.24 % contra la corrida anterior)
+- Anuncios analizados: **1070**
+- Precio mediano por m²: **USD 645** (+0.10 % contra la corrida anterior)
 - Sin alerta. (umbral: 5.0 %)
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2372; quedaron 1078 tras la limpieza.
-- Descartados por no es venta: 404
-- Descartados por no es vivienda: 693
+- Anuncios recibidos: 2358; quedaron 1070 tras la limpieza.
+- Descartados por id repetido: 1
+- Descartados por no es venta: 399
+- Descartados por no es vivienda: 692
 - Descartados por no esta activo: 120
 - Descartados por sin precio: 2
-- Descartados por area imposible: 9
+- Descartados por area imposible: 8
 - Descartados por duplicado con otro id: 7
 - Descartados por precio m2 imposible: 1
 - Descartados por precio m2 extremo: 58
@@ -43,7 +44,7 @@ Reporte del 2026-10-13
 | Alangasí | 11 | 515 | 144,000 |
 | Belisario Quevedo | 10 | 867 | 103,500 |
 
-![Precio por m²](precio_m2_2026-10-13.png)
+![Precio por m²](precio_m2_2026-10-14.png)
 
 ## El entorno económico del Ecuador
 - Inflación anual (Banco Mundial): 0.7% (2025)
