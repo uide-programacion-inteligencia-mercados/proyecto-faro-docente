@@ -1,0 +1,2 @@
+fecha_utc,corrida,estado,motivo,segundos,tareas_ok,tareas_fallo,tareas_omitidas,uso_respaldo,dias_sin_dato_real
+2026-10-15T19:17:46+00:00,38792426072,verde,todo bien con datos reales,101.3,7,0,0,False,0

@@ -1,4 +1,11 @@
 id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,banos,estado,fecha_captura,origen
+69076,VENTA TERRENO SECTOR QUITUMBE,Quitumbe,terreno,venta,21000.0,0.0,200.0,0,0,active,2026-10-15,remax_en_vivo
+69073,DEPARTAMENTO EXCLUSIVO URB. LAS BROMELIAS,Jipijapa,departamento,venta,398000.0,834.0,0.0,6,5,active,2026-10-15,remax_en_vivo
+69069,VENTA DE PROPIEDAD COMERCIAL,Conocoto,house_comercial,venta,390000.0,730.0,1392.11,4,2,active,2026-10-15,remax_en_vivo
+69067,VENTA CASA Y TERRENO,La Merced,casa,venta,280000.0,614.09,2161.31,4,3,active,2026-10-15,remax_en_vivo
+69065,DEPARTAMENTO EN RENTA MONJAS ORQUIDEAS 112M2,Las Orquideas,departamento,arriendo,280.0,127.0,0.0,3,2,active,2026-10-15,remax_en_vivo
+69064,DEPARTAMENTO EN VENTA | EDIFICIO SINAÍ,Iñaquito,departamento,venta,179000.0,151.0,0.0,3,2,active,2026-10-15,remax_en_vivo
+69062,Estudio EN VENTA | EDIFICIO IQON,La Carolina,departamento,venta,140000.0,62.0,0.0,1,1,active,2026-10-15,remax_en_vivo
 69061,ALQUILO Departamento en La Primavera.,Cumbayá,departamento,arriendo,550.0,160.0,0.0,3,3,active,2026-10-15,remax_en_vivo
 69060,A ESTRENAR PROPIEDAD POR $99.900 APLICA BIESS/VIP,La Mena,departamento,venta,99900.0,171.0,0.0,3,2,active,2026-10-15,remax_en_vivo
 69058,LOCAL COMERCIAL EN VENTA,Belisario Quevedo,local_comercial,venta,84000.0,176.0,0.0,0,1,active,2026-10-15,remax_en_vivo
@@ -817,7 +824,7 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 65200,Venta de departamento en Ciudad Jardin,Guamaní,departamento,venta,33000.0,87.73,0.0,3,1,active,2026-10-15,remax_en_vivo
 65199,Venta de Departamento en el Sector Quito Tenis,Quito Tenis,departamento,venta,198000.0,248.0,0.0,4,3,active,2026-10-15,remax_en_vivo
 65197,VENDO TERRENO ESQUINERO 2 FRENTES -  CONOCOTO,Conocoto,terreno,venta,70000.0,0.0,730.5,0,0,active,2026-10-15,remax_en_vivo
-65194,"VENDO DEPARTAMENTO, LA CONCEPCIÓN, PARQUE INGLÉS.",San Pedro Claver I,departamento,venta,85000.0,122.0,0.0,2,2,active,2026-10-15,remax_en_vivo
+65194,"VENDO DEPARTAMENTO, LA CONCEPCIÓN, PARQUE INGLÉS.",San Pedro Claver I,departamento,venta,87000.0,122.0,0.0,2,2,active,2026-10-15,remax_en_vivo
 65191,"Casa en venta - Landázuri, Calderón",Landazuri,casa,venta,67000.0,128.0,65.0,3,2,active,2026-10-15,remax_en_vivo
 65190,"CASA COMERCIAL EN VENTA NORTE DE QUITO, COTOCOLLAO",23 De Junio,house_comercial,venta,400000.0,503.97,569.0,10,6,active,2026-10-15,remax_en_vivo
 65182,EN VENTA TERRENO PARA PROYECTO INMOBILIARIO,La Macarena III,terreno,venta,580750.0,0.0,5045.0,0,0,active,2026-10-15,remax_en_vivo

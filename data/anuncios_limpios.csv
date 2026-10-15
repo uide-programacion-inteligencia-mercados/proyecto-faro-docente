@@ -1,4 +1,7 @@
 id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,banos,estado,fecha_captura,origen,precio_m2
+69073,DEPARTAMENTO EXCLUSIVO URB. LAS BROMELIAS,Jipijapa,departamento,venta,398000.0,834.0,0.0,6,5,active,2026-10-15,remax_en_vivo,477.22
+69067,VENTA CASA Y TERRENO,La Merced,casa,venta,280000.0,614.09,2161.31,4,3,active,2026-10-15,remax_en_vivo,455.96
+69064,DEPARTAMENTO EN VENTA | EDIFICIO SINAÍ,Iñaquito,departamento,venta,179000.0,151.0,0.0,3,2,active,2026-10-15,remax_en_vivo,1185.43
 69060,A ESTRENAR PROPIEDAD POR $99.900 APLICA BIESS/VIP,La Mena,departamento,venta,99900.0,171.0,0.0,3,2,active,2026-10-15,remax_en_vivo,584.21
 69049,Venta Casa Multifamiliar 382 m² cnstr 400 m² trn,Quitumbe,casa,venta,136000.0,382.36,400.0,7,4,active,2026-10-15,remax_en_vivo,355.69
 69043,DEPARTAMENTO DE VENTA EN PONCEANO,Contraloria,departamento,venta,66000.0,100.0,0.0,3,2,active,2026-10-15,remax_en_vivo,660.0
@@ -379,7 +382,7 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 65204,CASA EN VENTA EN CALDERON,Esperanza Progreso,casa,venta,47900.0,83.9,70.0,2,1,active,2026-10-15,remax_en_vivo,570.92
 65200,Venta de departamento en Ciudad Jardin,Guamaní,departamento,venta,33000.0,87.73,0.0,3,1,active,2026-10-15,remax_en_vivo,376.15
 65199,Venta de Departamento en el Sector Quito Tenis,Quito Tenis,departamento,venta,198000.0,248.0,0.0,4,3,active,2026-10-15,remax_en_vivo,798.39
-65194,"VENDO DEPARTAMENTO, LA CONCEPCIÓN, PARQUE INGLÉS.",San Pedro Claver I,departamento,venta,85000.0,122.0,0.0,2,2,active,2026-10-15,remax_en_vivo,696.72
+65194,"VENDO DEPARTAMENTO, LA CONCEPCIÓN, PARQUE INGLÉS.",San Pedro Claver I,departamento,venta,87000.0,122.0,0.0,2,2,active,2026-10-15,remax_en_vivo,713.11
 65191,"Casa en venta - Landázuri, Calderón",Landazuri,casa,venta,67000.0,128.0,65.0,3,2,active,2026-10-15,remax_en_vivo,523.44
 65181,CASA DE VENTA ARMENIA 2,Conocoto,casa,venta,110000.0,279.0,135.0,4,2,active,2026-10-15,remax_en_vivo,394.27
 65176,CASA DE VENTA NAYÓN  URB. TACURI con amplio Jardín,Valle De Nayon,casa,venta,314000.0,894.02,0.0,3,3,active,2026-10-15,remax_en_vivo,351.22
@@ -692,7 +695,6 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 61412,Vendo Dpto. 3 dormitorios - Sector La Kennedy,Rodriguez Aguirre,departamento,venta,55000.0,81.59,0.0,3,2,active,2026-10-15,remax_en_vivo,674.1
 61395,CASA EN VENTA 348m2 Urb. Balcón del Norte–Carcelén,Carcelén,casa,venta,185000.0,348.44,185.37,4,2,active,2026-10-15,remax_en_vivo,530.94
 61345,CASA RENTERA/FAMILIAR/COMERCIAL,Vista Hermosa,casa,venta,71900.0,197.35,0.0,6,3,active,2026-10-15,remax_en_vivo,364.33
-61334,VENTA CASA Y TERRENO,La Merced,casa,venta,280000.0,614.09,2161.31,4,3,active,2026-10-15,remax_en_vivo,455.96
 61330,SE VENDE CASA DUPLEX EN CIUDAD JARDIN PRECIO FIJO,Turubamba,casa,venta,45000.0,81.6,0.0,3,2,active,2026-10-15,remax_en_vivo,551.47
 61329,SUITE EN VENTA DE OPORTUNIDAD EN LA GASCA,Belisario Quevedo,departamento,venta,55000.0,67.0,0.0,1,1,active,2026-10-15,remax_en_vivo,820.9
 61293,DEPARTAMENTO 2D EDIFICIO MAGIC PONCEANO ALTO,Ponciano Alto,departamento,venta,119900.0,94.12,0.0,2,2,active,2026-10-15,remax_en_vivo,1273.91
