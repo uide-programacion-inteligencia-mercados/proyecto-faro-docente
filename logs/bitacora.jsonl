@@ -8,3 +8,13 @@
 {"momento_utc": "2026-10-15T19:17:46+00:00", "corrida": "38792426072", "nivel": "INFO", "tarea": "analizar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
 {"momento_utc": "2026-10-15T19:17:46+00:00", "corrida": "38792426072", "nivel": "INFO", "tarea": "reportar", "evento": "terminó bien", "intentos": 1, "segundos": 0.2}
 {"momento_utc": "2026-10-15T19:17:46+00:00", "corrida": "38792426072", "nivel": "INFO", "tarea": "monitoreo", "evento": "semáforo VERDE: todo bien con datos reales"}
+{"momento_utc": "2026-10-16T15:16:05+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "pipeline", "evento": "inicio de la corrida", "modo": "auto", "simulacro": false}
+{"momento_utc": "2026-10-16T15:16:20+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "banco_mundial", "evento": "terminó bien", "intentos": 1, "segundos": 14.8}
+{"momento_utc": "2026-10-16T15:16:20+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "fmi", "evento": "terminó bien", "intentos": 1, "segundos": 0.8}
+{"momento_utc": "2026-10-16T15:17:56+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "remax", "evento": "terminó bien", "intentos": 1, "segundos": 95.6}
+{"momento_utc": "2026-10-16T15:17:56+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "limpiar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-16T15:17:56+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "control_calidad", "evento": "datos aprobados", "anuncios": 1078, "mediana_m2": 645}
+{"momento_utc": "2026-10-16T15:17:56+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "control_calidad", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-16T15:17:56+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "analizar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-16T15:17:56+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "reportar", "evento": "terminó bien", "intentos": 1, "segundos": 0.1}
+{"momento_utc": "2026-10-16T15:17:56+00:00", "corrida": "38922482872", "nivel": "INFO", "tarea": "monitoreo", "evento": "semáforo VERDE: todo bien con datos reales"}

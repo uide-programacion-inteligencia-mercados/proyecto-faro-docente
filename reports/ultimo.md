@@ -1,20 +1,20 @@
 # Observatorio de Referencia · Mercado inmobiliario de Quito
-Reporte del 2026-10-15
+Reporte del 2026-10-16
 
 ## Lo más importante
-- Anuncios analizados: **1075**
-- Precio mediano por m²: **USD 643** (-0.19 % contra la corrida anterior)
+- Anuncios analizados: **1078**
+- Precio mediano por m²: **USD 645** (+0.19 % contra la corrida anterior)
 - Sin alerta. (umbral: 5.0 %)
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2385; quedaron 1075 tras la limpieza.
-- Descartados por no es venta: 404
-- Descartados por no es vivienda: 702
-- Descartados por no esta activo: 125
+- Anuncios recibidos: 2386; quedaron 1078 tras la limpieza.
+- Descartados por no es venta: 405
+- Descartados por no es vivienda: 701
+- Descartados por no esta activo: 124
 - Descartados por sin precio: 2
 - Descartados por area imposible: 8
-- Descartados por duplicado con otro id: 8
+- Descartados por duplicado con otro id: 7
 - Descartados por precio m2 imposible: 1
 - Descartados por precio m2 extremo: 60
 - Precios corregidos por punto de miles: 3
@@ -24,26 +24,26 @@ Reporte del 2026-10-15
 |---|---|---|---|
 | Conocoto | 56 | 572 | 105,000 |
 | Iñaquito | 38 | 891 | 156,500 |
-| Tumbaco | 35 | 828 | 181,500 |
-| Calderón (Carapungo) | 35 | 667 | 75,465 |
+| Tumbaco | 36 | 821 | 181,250 |
+| Calderón (Carapungo) | 36 | 649 | 75,232 |
 | Quito Tenis | 31 | 745 | 199,500 |
 | Cumbayá | 28 | 1,040 | 265,950 |
-| Rumipamba | 27 | 838 | 149,000 |
+| Rumipamba | 26 | 809 | 147,000 |
 | Bellavista | 25 | 895 | 249,000 |
 | El Condado | 24 | 581 | 144,000 |
 | Cotocollao | 21 | 661 | 72,742 |
-| Carcelén | 20 | 548 | 87,500 |
+| Carcelén | 21 | 564 | 89,000 |
 | Ponceano | 18 | 746 | 88,500 |
 | Cochapamba | 18 | 555 | 122,500 |
 | Pomasqui | 16 | 556 | 112,500 |
-| San Isidro Del Inca | 14 | 771 | 102,950 |
+| San Isidro Del Inca | 13 | 795 | 112,900 |
 | Kennedy | 13 | 691 | 108,000 |
 | Jipijapa | 12 | 824 | 212,500 |
 | San Antonio | 12 | 534 | 81,000 |
 | Alangasí | 11 | 515 | 144,000 |
 | Quitumbe | 11 | 503 | 63,000 |
 
-![Precio por m²](precio_m2_2026-10-15.png)
+![Precio por m²](precio_m2_2026-10-16.png)
 
 ## El entorno económico del Ecuador
 - Inflación anual (Banco Mundial): 0.7% (2025)
