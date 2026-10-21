@@ -4,13 +4,14 @@
 
 | Indicador | Valor |
 |---|---|
-| Corridas sin rojo (últimas 6) | 100 % |
-| Duración media | 104 s |
+| Corridas sin rojo (últimas 7) | 100 % |
+| Duración media | 102 s |
 | Días sin dato real | 0 |
 
 ### Últimas corridas
 | Fecha (UTC) | Estado | Segundos | Motivo |
 |---|---|---|---|
+| 2026-10-21 15:52 | 🟢 verde | 88.5 | todo bien con datos reales |
 | 2026-10-20 15:36 | 🟢 verde | 107.3 | todo bien con datos reales |
 | 2026-10-19 17:23 | 🟢 verde | 107.8 | todo bien con datos reales |
 | 2026-10-18 14:22 | 🟢 verde | 108.9 | todo bien con datos reales |
