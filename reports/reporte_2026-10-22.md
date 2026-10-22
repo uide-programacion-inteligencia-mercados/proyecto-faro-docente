@@ -8,13 +8,13 @@ Reporte del 2026-10-22
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2386; quedaron 1074 tras la limpieza.
+- Anuncios recibidos: 2387; quedaron 1074 tras la limpieza.
 - Descartados por no es venta: 399
 - Descartados por no es vivienda: 703
 - Descartados por no esta activo: 127
 - Descartados por sin precio: 2
 - Descartados por area imposible: 8
-- Descartados por duplicado con otro id: 8
+- Descartados por duplicado con otro id: 9
 - Descartados por precio m2 imposible: 1
 - Descartados por precio m2 extremo: 64
 - Precios corregidos por punto de miles: 3

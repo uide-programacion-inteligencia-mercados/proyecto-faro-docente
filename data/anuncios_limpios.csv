@@ -1,4 +1,5 @@
 id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,banos,estado,fecha_captura,origen,precio_m2
+69398,"CASA EN VENTA, SAN ISIDRO DEL INCA",San Isidro Del Inca,casa,venta,298000.0,403.63,838.0,4,3,active,2026-10-22,remax_en_vivo,738.3
 69389,AMPLIA CASA EN EL VALLE DE LOS CHILLOS,Alangasí,casa,venta,310000.0,375.0,190.0,3,3,active,2026-10-22,remax_en_vivo,826.67
 69388,"CASA EN VENTA PINAR ALTO,  PASEOS DEL PICHINCHA",El Pinar Alto,casa,venta,89800.0,175.07,0.0,4,2,active,2026-10-22,remax_en_vivo,512.94
 69367,VENTA CASA Y TERRENO,La Merced,casa,venta,280000.0,614.09,2161.31,4,3,active,2026-10-22,remax_en_vivo,455.96
@@ -788,7 +789,6 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 60387,SE VENDE SUITE EN LA MARIANA DE JESUS 66MT 1 DOR,Iñaquito,departamento,venta,85000.0,67.0,0.0,1,1,active,2026-10-22,remax_en_vivo,1268.66
 60377,SE VENDE SUITE BELLAVISTA,Bellavista,departamento,venta,85000.0,95.0,0.0,1,1,active,2026-10-22,remax_en_vivo,894.74
 60310,Vendo casa Santa Lucía - Precio de Oportunidad,Coop. Monserrat,casa,venta,99000.0,270.48,100.0,4,3,active,2026-10-22,remax_en_vivo,366.02
-60297,"CASA EN VENTA, SAN ISIDRO DEL INCA",San Isidro Del Inca,casa,venta,298000.0,403.63,838.0,4,3,active,2026-10-22,remax_en_vivo,738.3
 60282,Exclusivo departamento de venta en Quito Tennis,Quito Tenis,departamento,venta,365000.0,508.2,0.0,4,3,active,2026-10-22,remax_en_vivo,718.22
 60281,Exclusivo departamento de venta en Quito Tenis,Quito Tenis,departamento,venta,365000.0,502.99,0.0,3,3,active,2026-10-22,remax_en_vivo,725.66
 60265,Departamento 3 dormitorios en Venta - Puente 2,Puengasí,departamento,venta,44900.0,80.4,0.0,3,1,active,2026-10-22,remax_en_vivo,558.46

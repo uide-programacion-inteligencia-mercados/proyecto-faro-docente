@@ -1,24 +1,24 @@
 {
-  "corrida": "39830989586",
-  "inicio_utc": "2026-10-22T18:26:06+00:00",
+  "corrida": "39840344958",
+  "inicio_utc": "2026-10-22T19:30:33+00:00",
   "tareas": [
     {
       "tarea": "banco_mundial",
       "estado": "ok",
       "intentos": 1,
-      "segundos": 16.3
+      "segundos": 0.6
     },
     {
       "tarea": "fmi",
       "estado": "ok",
       "intentos": 1,
-      "segundos": 0.4
+      "segundos": 0.7
     },
     {
       "tarea": "remax",
       "estado": "ok",
       "intentos": 1,
-      "segundos": 83.6
+      "segundos": 101.0
     },
     {
       "tarea": "limpiar",
@@ -42,13 +42,13 @@
       "tarea": "reportar",
       "estado": "ok",
       "intentos": 1,
-      "segundos": 0.2
+      "segundos": 0.1
     },
     {
       "tarea": "reportar_pdf",
       "estado": "ok",
       "intentos": 1,
-      "segundos": 1.0
+      "segundos": 0.7
     }
   ]
 }
