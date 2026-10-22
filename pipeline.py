@@ -1,11 +1,11 @@
 # ============================================================================
-# ARCHIVO: pipeline.py        (el PLANO y el PUNTO DE PARTIDA)    · MEJORADO S07
+# ARCHIVO: pipeline.py        (el PLANO y el PUNTO DE PARTIDA)    · MEJORADO S08
 # QUÉ HACE:  Define las tareas del robot, de quién depende cada una, y la función main() que las lanza con el orquestador.
 # RECIBE:    Los datos que traen los archivos de fuentes/ y las reglas de config.py.
 # ENTREGA:   Tablas guardadas en data/, el reporte en reports/ y el registro en logs/. Termina con éxito o con error.
 # ESTO PUEDES CAMBIARLO EN TU PROYECTO: las tareas y sus dependencias (diccionario TAREAS). Aquí agregas o quitas fuentes y pasos.
 # ============================================================================
-# Secuencia: BUSCAR, GUARDAR, LIMPIAR, CONTROLAR, ANALIZAR, MOSTRAR.
+# Secuencia: BUSCAR, GUARDAR, LIMPIAR, CONTROLAR, ANALIZAR, MOSTRAR, INFORMAR (S08).
 # Cada función t_xxx es UNA tarea: recibe lo que entregó la anterior y entrega su resultado.
 import sys
 import time
@@ -17,6 +17,7 @@ import analisis
 import limpieza
 import orquestador
 import reporte
+import reporte_pdf
 from fuentes import banco_mundial, fmi, remax
 
 
@@ -86,6 +87,11 @@ def t_reportar(analizar):
     return reporte.escribir(analizar)
 
 
+# --- TAREA DE PDF (S08): imprime el informe. Necesita las cifras Y el gráfico que dibujó reportar ---
+def t_reportar_pdf(analizar, reportar):
+    return reporte_pdf.generar(analizar, reportar)
+
+
 # EL PLANO (llamado DAG): cada tarea dice quién es y de quién depende.
 # Formato:  "nombre": (función, ["tareas que deben terminar antes"])
 # El orquestador ordena todo solo; tú solo describes las dependencias.
@@ -97,6 +103,7 @@ TAREAS = {
     "control_calidad": (t_control_calidad, ["limpiar"]),
     "analizar": (t_analizar, ["control_calidad"]),
     "reportar": (t_reportar, ["analizar"]),
+    "reportar_pdf": (t_reportar_pdf, ["analizar", "reportar"]),   # S08 · el informe en PDF
 }
 
 
