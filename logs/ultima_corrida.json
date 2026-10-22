@@ -1,50 +1,54 @@
 {
-  "corrida": "39828980956",
-  "inicio_utc": "2026-10-22T18:10:58+00:00",
+  "corrida": "39830989586",
+  "inicio_utc": "2026-10-22T18:26:06+00:00",
   "tareas": [
     {
       "tarea": "banco_mundial",
       "estado": "ok",
       "intentos": 1,
-      "segundos": 0.4
+      "segundos": 16.3
     },
     {
       "tarea": "fmi",
       "estado": "ok",
       "intentos": 1,
-      "segundos": 0.9
+      "segundos": 0.4
     },
     {
       "tarea": "remax",
-      "estado": "fallo",
-      "error": "SIMULACRO: la fuente no contesta (falla provocada a propósito)",
-      "intentos": 3,
-      "tipo": "fuente"
+      "estado": "ok",
+      "intentos": 1,
+      "segundos": 83.6
     },
     {
       "tarea": "limpiar",
-      "estado": "omitida",
-      "motivo": "falló remax"
+      "estado": "ok",
+      "intentos": 1,
+      "segundos": 0.0
     },
     {
       "tarea": "control_calidad",
-      "estado": "omitida",
-      "motivo": "falló limpiar"
+      "estado": "ok",
+      "intentos": 1,
+      "segundos": 0.0
     },
     {
       "tarea": "analizar",
-      "estado": "omitida",
-      "motivo": "falló control_calidad"
+      "estado": "ok",
+      "intentos": 1,
+      "segundos": 0.0
     },
     {
       "tarea": "reportar",
-      "estado": "omitida",
-      "motivo": "falló analizar"
+      "estado": "ok",
+      "intentos": 1,
+      "segundos": 0.2
     },
     {
       "tarea": "reportar_pdf",
-      "estado": "omitida",
-      "motivo": "falló analizar, reportar"
+      "estado": "ok",
+      "intentos": 1,
+      "segundos": 1.0
     }
   ]
 }

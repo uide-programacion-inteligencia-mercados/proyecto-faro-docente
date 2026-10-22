@@ -38,7 +38,7 @@ Reporte del 2026-10-22
 | Kennedy | 15 | 691 | 110,000 |
 | Pomasqui | 14 | 556 | 112,500 |
 | San Isidro Del Inca | 13 | 795 | 112,900 |
-| Alangasí | 12 | 522 | 179,500 |
+| Alangasí | 13 | 529 | 215,000 |
 | San Antonio | 12 | 505 | 91,500 |
 | Quitumbe | 12 | 494 | 56,000 |
 | Turubamba | 12 | 443 | 48,500 |

@@ -1,4 +1,5 @@
 id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,banos,estado,fecha_captura,origen,precio_m2
+69389,AMPLIA CASA EN EL VALLE DE LOS CHILLOS,Alangasí,casa,venta,310000.0,375.0,190.0,3,3,active,2026-10-22,remax_en_vivo,826.67
 69388,"CASA EN VENTA PINAR ALTO,  PASEOS DEL PICHINCHA",El Pinar Alto,casa,venta,89800.0,175.07,0.0,4,2,active,2026-10-22,remax_en_vivo,512.94
 69367,VENTA CASA Y TERRENO,La Merced,casa,venta,280000.0,614.09,2161.31,4,3,active,2026-10-22,remax_en_vivo,455.96
 69365,VENTA DE CASA GRANDE 4 HAB AMAGASI DEL INCA SOLCA,San Miguel De Amagasi,casa,venta,85000.0,162.0,60.0,4,2,active,2026-10-22,remax_en_vivo,524.69
@@ -260,7 +261,6 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 67594,DEPARTAMENTO EN VENTA – EL BATÁN BAJO | QUITO,Iñaquito,departamento,venta,95000.0,119.32,0.0,3,2,active,2026-10-22,remax_en_vivo,796.18
 67589,DÚPLEX EN VENTA – EL BATÁN BAJO | QUITO,Iñaquito,departamento,venta,148000.0,156.0,0.0,3,2,active,2026-10-22,remax_en_vivo,948.72
 67581,Venta Departamento Ponciano 2 Dorm. Francis Dalmau,Ponciano Alto,departamento,venta,74000.0,112.0,0.0,2,2,active,2026-10-22,remax_en_vivo,660.71
-67578,"Casa Rentera Esquinera, Tomás de Berlanga",Jipijapa,casa,venta,550000.0,619.24,0.0,8,6,active,2026-10-22,remax_en_vivo,888.19
 67569,"SE VENDE CASA, SECTOR CONDADO, CONJUNTO PRIVADO",El Condado,casa,venta,124500.0,266.94,0.0,4,3,active,2026-10-22,remax_en_vivo,466.4
 67552,CASA EN VENTA - SECTOR S.JUAN LOMA N 1,Calderón (Carapungo),casa,venta,113000.0,382.0,0.0,5,3,active,2026-10-22,remax_en_vivo,295.81
 67549,"Casa de Venta QUITO TENIS, 340m2",Quito Tenis,casa,venta,195000.0,370.0,220.0,3,3,active,2026-10-22,remax_en_vivo,527.03
