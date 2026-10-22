@@ -58,7 +58,8 @@ def _frase_hilo(r):
             base += f", mientras la inflación anual del país fue {r['inflacion'][1]:.1f} % ({r['inflacion'][0]})"
         base += "."
     if r["credito"] is not None:
-        base += f" El crédito al sector privado equivale a {r['credito'][1]:.1f} % del PIB ({r['credito'][0]})."
+        base += (f" Contexto: en {r['credito'][0]}, los préstamos de bancos y otras entidades financieras a empresas y familias "
+                 f"equivalían a {r['credito'][1]:.1f} % de todo lo que produce el país en un año (dato anual del Banco Mundial).")
     return base
 
 
@@ -93,10 +94,10 @@ def contexto(resumen, png, ultimo_estado=None):
         "grafico_uri": _imagen_en_texto(png),
         "sectores": [{"sector": r.sector, "anuncios": int(r.anuncios), "mediana_m2": f"{int(r.mediana_m2):,}",
                       "precio_mediano": f"{int(r.precio_mediano):,}"} for r in top.itertuples()],
-        "entorno": [{"nombre": "Inflación anual (Banco Mundial)", "valor": _fmt(resumen["inflacion"])},
+        "entorno": [{"nombre": "Inflación anual (Banco Mundial, dato anual)", "valor": _fmt(resumen["inflacion"])},
                     {"nombre": "Crecimiento del PIB (Banco Mundial)", "valor": _fmt(resumen["pib_bm"])},
                     {"nombre": "Crecimiento del PIB (FMI)", "valor": _fmt(resumen["pib_fmi"])},
-                    {"nombre": "Crédito privado (% del PIB)", "valor": _fmt(resumen["credito"])}],
+                    {"nombre": "Crédito privado (% del PIB, dato anual)", "valor": _fmt(resumen["credito"])}],
         "calidad": calidad,
         "corridas": corridas,
         "origen": resumen["origen"],
