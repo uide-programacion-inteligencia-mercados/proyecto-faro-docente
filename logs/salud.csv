@@ -8,3 +8,4 @@ fecha_utc,corrida,estado,motivo,segundos,tareas_ok,tareas_fallo,tareas_omitidas,
 2026-10-21T15:52:40+00:00,39629372369,verde,todo bien con datos reales,88.5,7,0,0,False,0
 2026-10-22T15:50:15+00:00,39808201863,verde,todo bien con datos reales,107.4,7,0,0,False,0
 2026-10-22T17:33:32+00:00,39823376079,amarillo,banco_mundial: la fuente no contestó: usé el respaldo (plan B),121.8,8,0,0,True,0
+2026-10-22T18:10:58+00:00,39828980956,rojo,"falló: remax; omitidas: limpiar, control_calidad, analizar, reportar, reportar_pdf",10.3,2,1,5,False,0
