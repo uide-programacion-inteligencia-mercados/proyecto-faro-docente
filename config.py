@@ -57,6 +57,9 @@ BM_INDICADORES = {
 BM_DESDE, BM_HASTA = 2015, 2025
 FMI_INDICADOR = "NGDP_RPCH"   # crecimiento real del PIB
 
+# --- PLAN B VIVO: True = tras una corrida con datos reales aprobados, se renueva data/respaldo/ ---
+RENOVAR_RESPALDO = True
+
 # --- REINTENTOS: cuántas veces repite una tarea que falla y cuántos segundos espera ---
 # Desde la semana 7 la espera CRECE: 3 s, luego 6 s (se duplica en cada intento).
 REINTENTOS = 2

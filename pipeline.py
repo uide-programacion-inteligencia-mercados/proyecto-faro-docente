@@ -18,6 +18,7 @@ import limpieza
 import orquestador
 import reporte
 import reporte_pdf
+import respaldo
 from fuentes import banco_mundial, fmi, remax
 
 
@@ -77,6 +78,15 @@ def t_control_calidad(limpiar):
     return limpiar
 
 
+# --- TAREA DEL PLAN B VIVO (S08): si los datos de hoy fueron reales y el portero los aprobó, renueva el respaldo ---
+def t_renovar_respaldo(control_calidad):
+    try:
+        return respaldo.renovar()
+    except Exception as e:      # renovar el plan B nunca debe tumbar el informe del día
+        bitacora.anotar("WARNING", "renovar_respaldo", "no se pudo renovar la copia de seguridad", error=str(e)[:200])
+        return []
+
+
 # --- TAREA DE ANÁLISIS: las cifras que responden la pregunta de negocio ---
 def t_analizar(control_calidad):
     return analisis.analizar(control_calidad["anuncios"], control_calidad["macro"], control_calidad["descartes"])
@@ -101,6 +111,7 @@ TAREAS = {
     "fmi": (t_fmi, []),
     "limpiar": (t_limpiar, ["remax", "banco_mundial", "fmi"]),
     "control_calidad": (t_control_calidad, ["limpiar"]),
+    "renovar_respaldo": (t_renovar_respaldo, ["control_calidad"]),   # S08 · plan B vivo
     "analizar": (t_analizar, ["control_calidad"]),
     "reportar": (t_reportar, ["analizar"]),
     "reportar_pdf": (t_reportar_pdf, ["analizar", "reportar"]),   # S08 · el informe en PDF

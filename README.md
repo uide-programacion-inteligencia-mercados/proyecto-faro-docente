@@ -22,6 +22,8 @@ Cada fuente tiene su plan B en `data/respaldo/`. Si la fuente real no contesta, 
 
 **Sobre el respaldo de RE/MAX:** `respaldo_remax.csv` es una muestra **real** de 170 anuncios de Quito tomada el 8 de octubre de 2026 (columna `origen` = `respaldo_remax_real`), con sus errores originales: arriendos y terrenos mezclados con ventas, un departamento de venta a 250 dólares, precios con punto de miles (75.579) y un local con 154.569 m². Es el material de práctica de los grupos para limpiar datos.
 
+**Plan B vivo (S08):** cuando una fuente contesta en vivo y el control de calidad aprueba los datos, la tarea `renovar_respaldo` guarda una copia fresca en `data/respaldo/` (columna `origen` = `respaldo_remax_renovado`) y anota la fecha en `fechas.json`. No renueva si hoy la fuente usó su plan B, si es un simulacro, si se corre en modo prueba o si el dato es demasiado corto. Se apaga con `RENOVAR_RESPALDO = False` en `config.py`.
+
 **Regla de oro del respaldo:** si una corrida usa el respaldo, el reporte lo dice y **no se guarda en el histórico**. Así nunca se mezclan datos viejos con la serie real.
 
 **Pendiente:** confirmar que la API contesta desde los servidores de GitHub (se prueba una vez con **Run workflow**). Si no contestara, el robot usa el respaldo y lo avisa en el reporte.
@@ -108,4 +110,5 @@ Para probar sin salir a internet: `!FARO_MODO=respaldo python pipeline.py`.
 | `pipeline.py` | Define las tareas y de quién depende cada una |
 | `bitacora.py` | (S07) La bitácora: una línea por evento |
 | `monitoreo.py` | (S07) El semáforo y el historial de salud |
-| `tests/` | 31 pruebas: 12 de la semana 6, 9 de resiliencia (S07) y 10 del informe PDF (S08) |
+| `tests/` | 36 pruebas: 12 de la semana 6, 9 de resiliencia (S07), 10 del informe PDF (S08) y 5 del plan B vivo (S08) |
+| `respaldo.py` | El plan B vivo: tras una corrida con datos reales aprobados, renueva `data/respaldo/` y anota la fecha en `data/respaldo/fechas.json` |
