@@ -2,15 +2,15 @@
 Reporte del 2026-10-22
 
 ## Lo más importante
-- Anuncios analizados: **1073**
-- Precio mediano por m²: **USD 643** (+0.06 % contra la corrida anterior)
+- Anuncios analizados: **1074**
+- Precio mediano por m²: **USD 642** (-0.01 % contra la corrida anterior)
 - Sin alerta. (umbral: 5.0 %)
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2385; quedaron 1073 tras la limpieza.
-- Descartados por no es venta: 398
-- Descartados por no es vivienda: 704
+- Anuncios recibidos: 2386; quedaron 1074 tras la limpieza.
+- Descartados por no es venta: 399
+- Descartados por no es vivienda: 703
 - Descartados por no esta activo: 127
 - Descartados por sin precio: 2
 - Descartados por area imposible: 8
@@ -28,7 +28,7 @@ Reporte del 2026-10-22
 | Tumbaco | 34 | 821 | 183,250 |
 | Quito Tenis | 32 | 743 | 198,750 |
 | Cumbayá | 30 | 954 | 249,500 |
-| Rumipamba | 25 | 857 | 140,000 |
+| Rumipamba | 25 | 857 | 135,000 |
 | Bellavista | 24 | 892 | 249,500 |
 | El Condado | 24 | 593 | 160,000 |
 | Cotocollao | 20 | 733 | 72,411 |

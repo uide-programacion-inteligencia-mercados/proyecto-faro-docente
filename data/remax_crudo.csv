@@ -1,4 +1,6 @@
 id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,banos,estado,fecha_captura,origen
+69388,"CASA EN VENTA PINAR ALTO,  PASEOS DEL PICHINCHA",El Pinar Alto,casa,venta,89800.0,175.07,0.0,4,2,active,2026-10-22,remax_en_vivo
+69386,"Local Comercial en Renta, Sector Iñaquito",Inaquito,local_comercial,arriendo,3500.0,850.0,0.0,0,2,active,2026-10-22,remax_en_vivo
 69379,VENTA DE PROPIEDAD COMERCIAL,Conocoto,house_comercial,venta,390000.0,730.0,1392.11,4,2,active,2026-10-22,remax_en_vivo
 69378,3 LOCALES COMERCIALES ESTRATÉGICOS VIA PRINCIPAL,Carcelén,local_comercial,arriendo,200.0,87.0,0.0,0,1,active,2026-10-22,remax_en_vivo
 69377,3 LOCALES COMERCIALES ESTRATÉGICOS VIA PRINCIPAL,Carcelén,local_comercial,arriendo,200.0,87.0,0.0,0,1,active,2026-10-22,remax_en_vivo
@@ -307,7 +309,7 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 68495,SECTOR JIPIJAPA CASA RENTERA DE 7 DEPARTAMENTOS,Jipijapa,casa,venta,288000.0,791.0,403.0,16,2,reserved,2026-10-22,remax_en_vivo
 68468,VENTA DE CASA RENTERA 4 PISOS LA VICENTINA,La Vicentina,casa,venta,165000.0,386.17,0.0,6,5,active,2026-10-22,remax_en_vivo
 68461,VENTA TERRENO - VALLE DE LOS CHILLOS SANGOLQUI,Píntag,terreno,venta,71000.0,0.0,700.0,0,0,active,2026-10-22,remax_en_vivo
-68460,DEPARTAMENTO TOTALMENTE REMODELADO,La Floresta,casa,venta,165000.0,235.0,332.0,4,2,active,2026-10-22,remax_en_vivo
+68460,DEPARTAMENTO TOTALMENTE REMODELADO,La Floresta,casa,venta,147000.0,235.0,332.0,4,2,active,2026-10-22,remax_en_vivo
 68445,Departamento 3 d con amenities,Calderón (Carapungo),departamento,venta,74365.0,79.31,0.0,3,2,active,2026-10-22,remax_en_vivo
 68444,Deprtamento 3 Dormitorios en Calderón,Calderón (Carapungo),departamento,venta,75.579,80.63,0.0,3,2,active,2026-10-22,remax_en_vivo
 68443,Departamento 3 dormitorios,Calderón (Carapungo),departamento,venta,73.665,79.31,0.0,3,2,active,2026-10-22,remax_en_vivo
@@ -607,7 +609,6 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 67581,Venta Departamento Ponciano 2 Dorm. Francis Dalmau,Ponciano Alto,departamento,venta,74000.0,112.0,0.0,2,2,active,2026-10-22,remax_en_vivo
 67580,Venta departamento 3 dorm Gaspar de Villarroel,Batan Alto,departamento,venta,139500.0,152.0,0.0,3,2,reserved,2026-10-22,remax_en_vivo
 67578,"Casa Rentera Esquinera, Tomás de Berlanga",Jipijapa,casa,venta,550000.0,619.24,0.0,8,6,active,2026-10-22,remax_en_vivo
-67577,"Casa Rentera Esquinera, Tomás de Berlanga",Jipijapa,house_comercial,venta,550000.0,619.24,0.0,8,6,active,2026-10-22,remax_en_vivo
 67571,Arriendo Oficina Amoblada 90m2 la Carolina,La Carolina,oficina,arriendo,900.0,195.0,0.0,0,2,active,2026-10-22,remax_en_vivo
 67569,"SE VENDE CASA, SECTOR CONDADO, CONJUNTO PRIVADO",El Condado,casa,venta,124500.0,266.94,0.0,4,3,active,2026-10-22,remax_en_vivo
 67563,ARRIENDO LOCAL COMERCIAL - CENTRO HISTÓRICO,Centro Histórico,local_comercial,arriendo,270.0,15.0,0.0,0,1,active,2026-10-22,remax_en_vivo
@@ -621,7 +622,7 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 67546,"QUINTA EN VENTA ,  FARM FOR SELL , SECTOR CARCELEN",Carcelén,quinta,venta,1900000.0,1022.0,8152.0,10,6,active,2026-10-22,remax_en_vivo
 67545,DEPARTAMENTO 4 DORMITORIOS | URB. JULIO MATOVELLE,Kennedy,departamento,venta,91000.0,172.56,0.0,4,2,active,2026-10-22,remax_en_vivo
 67539,CASA EN VENTA 4D SECTOR CAMINOS DE EUCALIPTO,Camino Eucalipto,casa,venta,69000.0,387.62,176.97,4,2,active,2026-10-22,remax_en_vivo
-67537,Departamento en venta – Rumipamba,Rumipamba,departamento,venta,145000.0,229.0,0.0,3,2,active,2026-10-22,remax_en_vivo
+67537,Departamento en venta – Rumipamba,Rumipamba,departamento,venta,135000.0,229.0,0.0,3,2,active,2026-10-22,remax_en_vivo
 67536,TERRENEO EN VENTA EN VELAVISTA CALDERON,Bellavista,terreno,venta,34000.0,0.0,197.0,0,0,active,2026-10-22,remax_en_vivo
 67534,casa de venta carcelen corazon de jesus,Carcelén,casa,venta,98000.0,205.2,200.0,3,2,active,2026-10-22,remax_en_vivo
 67533,venta casa rentera turubamba,Guamaní,house_comercial,venta,145000.0,548.0,600.0,3,3,active,2026-10-22,remax_en_vivo
@@ -1832,7 +1833,7 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 59598,Departamento en venta ideal para inversion.,Granda Centeno,departamento,venta,110000.0,142.0,0.0,4,1,active,2026-10-22,remax_en_vivo
 59592,VENTA TERRENO RANCHO SAN FRANCISCO,Nayón,terreno,venta,1642000.0,0.0,2053.0,0,0,active,2026-10-22,remax_en_vivo
 59572,Oficina de Venta en el Sector Ejido,Ejido,oficina,venta,30000.0,60.0,0.0,0,1,active,2026-10-22,remax_en_vivo
-59569,"VENTA DE DEPARTAMENTO,PONCEANO 3 DORMIT, SUPERMAXI",Ponceano,departamento,venta,118000.0,145.27,0.0,3,2,active,2026-10-22,remax_en_vivo
+59569,"VENTA DE DEPARTAMENTO,PONCEANO 3 DORMIT, SUPERMAXI",Ponceano,departamento,venta,110000.0,145.27,0.0,3,2,active,2026-10-22,remax_en_vivo
 59567,"EN VENTA EXCLUSIVA PROPIEDAD DE LUJO, CENTRO NORTE",Mariscal Sucre,casa,venta,970000.0,1268.0,870.0,7,7,active,2026-10-22,remax_en_vivo
 59566,Venta Casa 500 m2 Batán Alto,Batan Alto,casa,venta,510000.0,832.0,0.0,5,5,active,2026-10-22,remax_en_vivo
 59565,Venta Casa 265 m² La Loma Grande Centro Histórico,La Loma,casa,venta,168000.0,265.0,97.0,4,2,active,2026-10-22,remax_en_vivo

@@ -1,4 +1,5 @@
 id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,banos,estado,fecha_captura,origen,precio_m2
+69388,"CASA EN VENTA PINAR ALTO,  PASEOS DEL PICHINCHA",El Pinar Alto,casa,venta,89800.0,175.07,0.0,4,2,active,2026-10-22,remax_en_vivo,512.94
 69367,VENTA CASA Y TERRENO,La Merced,casa,venta,280000.0,614.09,2161.31,4,3,active,2026-10-22,remax_en_vivo,455.96
 69365,VENTA DE CASA GRANDE 4 HAB AMAGASI DEL INCA SOLCA,San Miguel De Amagasi,casa,venta,85000.0,162.0,60.0,4,2,active,2026-10-22,remax_en_vivo,524.69
 69364,DEPARTAMENTO EN VENTA CIUDAD JARDÍN/SUR  DE QUITO,Turubamba,departamento,venta,41000.0,64.0,0.0,2,1,active,2026-10-22,remax_en_vivo,640.62
@@ -123,7 +124,7 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 68552,PROPIEDAD DE OPORTUNIDAD EN LA GASCA,Belisario Quevedo,casa,venta,150000.0,299.5,280.0,5,3,active,2026-10-22,remax_en_vivo,500.83
 68541,VENTA CASA CONJUNTO HABITACIONAL DOMENICA,San Jose,casa,venta,56900.0,131.55,0.0,2,2,active,2026-10-22,remax_en_vivo,432.54
 68468,VENTA DE CASA RENTERA 4 PISOS LA VICENTINA,La Vicentina,casa,venta,165000.0,386.17,0.0,6,5,active,2026-10-22,remax_en_vivo,427.27
-68460,DEPARTAMENTO TOTALMENTE REMODELADO,La Floresta,casa,venta,165000.0,235.0,332.0,4,2,active,2026-10-22,remax_en_vivo,702.13
+68460,DEPARTAMENTO TOTALMENTE REMODELADO,La Floresta,casa,venta,147000.0,235.0,332.0,4,2,active,2026-10-22,remax_en_vivo,625.53
 68445,Departamento 3 d con amenities,Calderón (Carapungo),departamento,venta,74365.0,79.31,0.0,3,2,active,2026-10-22,remax_en_vivo,937.65
 68444,Deprtamento 3 Dormitorios en Calderón,Calderón (Carapungo),departamento,venta,75579.0,80.63,0.0,3,2,active,2026-10-22,remax_en_vivo,937.36
 68443,Departamento 3 dormitorios,Calderón (Carapungo),departamento,venta,73665.0,79.31,0.0,3,2,active,2026-10-22,remax_en_vivo,928.82
@@ -265,7 +266,7 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 67549,"Casa de Venta QUITO TENIS, 340m2",Quito Tenis,casa,venta,195000.0,370.0,220.0,3,3,active,2026-10-22,remax_en_vivo,527.03
 67545,DEPARTAMENTO 4 DORMITORIOS | URB. JULIO MATOVELLE,Kennedy,departamento,venta,91000.0,172.56,0.0,4,2,active,2026-10-22,remax_en_vivo,527.35
 67539,CASA EN VENTA 4D SECTOR CAMINOS DE EUCALIPTO,Camino Eucalipto,casa,venta,69000.0,387.62,176.97,4,2,active,2026-10-22,remax_en_vivo,178.01
-67537,Departamento en venta – Rumipamba,Rumipamba,departamento,venta,145000.0,229.0,0.0,3,2,active,2026-10-22,remax_en_vivo,633.19
+67537,Departamento en venta – Rumipamba,Rumipamba,departamento,venta,135000.0,229.0,0.0,3,2,active,2026-10-22,remax_en_vivo,589.52
 67534,casa de venta carcelen corazon de jesus,Carcelén,casa,venta,98000.0,205.2,200.0,3,2,active,2026-10-22,remax_en_vivo,477.58
 67528,Se vende casa rentera en Llano Grande,Sierra Hermosa,casa,venta,98000.0,223.9,0.0,5,4,active,2026-10-22,remax_en_vivo,437.7
 67527,En Venta departamento de 3 dormitorios en NAYON,Nayón,departamento,venta,159000.0,166.0,0.0,3,3,active,2026-10-22,remax_en_vivo,957.83
@@ -837,7 +838,7 @@ id,titulo,sector,tipo,operacion,precio_usd,area_m2,area_terreno_m2,dormitorios,b
 59647,DEPARTAMENTO EN VENTA 3 DORM. IÑAQUITO ALTO,Rumipamba,departamento,venta,133000.0,134.98,0.0,3,2,active,2026-10-22,remax_en_vivo,985.33
 59605,GONZALEZ SUAREZ  VENTA DEPARTAMENTO 332 M2 BALCÓN,Iñaquito,departamento,venta,269000.0,340.0,0.0,3,3,active,2026-10-22,remax_en_vivo,791.18
 59598,Departamento en venta ideal para inversion.,Granda Centeno,departamento,venta,110000.0,142.0,0.0,4,1,active,2026-10-22,remax_en_vivo,774.65
-59569,"VENTA DE DEPARTAMENTO,PONCEANO 3 DORMIT, SUPERMAXI",Ponceano,departamento,venta,118000.0,145.27,0.0,3,2,active,2026-10-22,remax_en_vivo,812.28
+59569,"VENTA DE DEPARTAMENTO,PONCEANO 3 DORMIT, SUPERMAXI",Ponceano,departamento,venta,110000.0,145.27,0.0,3,2,active,2026-10-22,remax_en_vivo,757.21
 59567,"EN VENTA EXCLUSIVA PROPIEDAD DE LUJO, CENTRO NORTE",Mariscal Sucre,casa,venta,970000.0,1268.0,870.0,7,7,active,2026-10-22,remax_en_vivo,764.98
 59566,Venta Casa 500 m2 Batán Alto,Batan Alto,casa,venta,510000.0,832.0,0.0,5,5,active,2026-10-22,remax_en_vivo,612.98
 59565,Venta Casa 265 m² La Loma Grande Centro Histórico,La Loma,casa,venta,168000.0,265.0,97.0,4,2,active,2026-10-22,remax_en_vivo,633.96

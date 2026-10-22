@@ -78,3 +78,16 @@
 {"momento_utc": "2026-10-22T15:50:15+00:00", "corrida": "39808201863", "nivel": "INFO", "tarea": "analizar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
 {"momento_utc": "2026-10-22T15:50:15+00:00", "corrida": "39808201863", "nivel": "INFO", "tarea": "reportar", "evento": "terminó bien", "intentos": 1, "segundos": 0.2}
 {"momento_utc": "2026-10-22T15:50:15+00:00", "corrida": "39808201863", "nivel": "INFO", "tarea": "monitoreo", "evento": "semáforo VERDE: todo bien con datos reales"}
+{"momento_utc": "2026-10-22T17:31:30+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "pipeline", "evento": "inicio de la corrida", "modo": "auto", "simulacro": false}
+{"momento_utc": "2026-10-22T17:32:00+00:00", "corrida": "39823376079", "nivel": "WARNING", "tarea": "banco_mundial", "evento": "la fuente no contestó: usé el respaldo (plan B)", "error": "HTTPSConnectionPool(host='api.worldbank.org', port=443): Read timed out. (read timeout=30)"}
+{"momento_utc": "2026-10-22T17:32:00+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "banco_mundial", "evento": "terminó bien", "intentos": 1, "segundos": 30.3}
+{"momento_utc": "2026-10-22T17:32:01+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "fmi", "evento": "terminó bien", "intentos": 1, "segundos": 0.5}
+{"momento_utc": "2026-10-22T17:33:31+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "remax", "evento": "terminó bien", "intentos": 1, "segundos": 90.2}
+{"momento_utc": "2026-10-22T17:33:31+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "limpiar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-22T17:33:31+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "control_calidad", "evento": "datos aprobados", "anuncios": 1074, "mediana_m2": 642}
+{"momento_utc": "2026-10-22T17:33:31+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "control_calidad", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-22T17:33:31+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "analizar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-22T17:33:31+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "reportar", "evento": "terminó bien", "intentos": 1, "segundos": 0.1}
+{"momento_utc": "2026-10-22T17:33:32+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "reporte_pdf", "evento": "PDF generado", "archivo": "reporte_2026-10-22.pdf", "paginas": 2, "kb": 71}
+{"momento_utc": "2026-10-22T17:33:32+00:00", "corrida": "39823376079", "nivel": "INFO", "tarea": "reportar_pdf", "evento": "terminó bien", "intentos": 1, "segundos": 0.6}
+{"momento_utc": "2026-10-22T17:33:32+00:00", "corrida": "39823376079", "nivel": "WARNING", "tarea": "monitoreo", "evento": "semáforo AMARILLO: banco_mundial: la fuente no contestó: usé el respaldo (plan B)"}
