@@ -17,3 +17,4 @@ fecha_utc,corrida,estado,motivo,segundos,tareas_ok,tareas_fallo,tareas_omitidas,
 2026-10-26T17:10:42+00:00,40365825114,verde,todo bien con datos reales,93.8,9,0,0,False,0
 2026-10-27T16:15:48+00:00,40538809009,verde,todo bien con datos reales,92.8,9,0,0,False,0
 2026-10-28T17:02:21+00:00,40731500320,verde,todo bien con datos reales,79.7,9,0,0,False,0
+2026-10-29T17:21:29+00:00,40920224888,verde,todo bien con datos reales,92.7,9,0,0,False,0

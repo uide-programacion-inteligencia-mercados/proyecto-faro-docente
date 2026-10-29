@@ -1,21 +1,21 @@
 # Observatorio de Referencia · Mercado inmobiliario de Quito
-Reporte del 2026-10-28
+Reporte del 2026-10-29
 
 ## Lo más importante
-- Anuncios analizados: **1069**
-- Precio mediano por m²: **USD 643** (+0.11 % contra la corrida anterior)
+- Anuncios analizados: **1073**
+- Precio mediano por m²: **USD 643** (+0.00 % contra la corrida anterior)
 - Sin alerta. (umbral: 5.0 %)
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2363; quedaron 1069 tras la limpieza.
-- Descartados por no es venta: 394
-- Descartados por no es vivienda: 698
-- Descartados por no esta activo: 122
+- Anuncios recibidos: 2366; quedaron 1073 tras la limpieza.
+- Descartados por no es venta: 395
+- Descartados por no es vivienda: 699
+- Descartados por no esta activo: 121
 - Descartados por sin precio: 2
 - Descartados por area imposible: 8
 - Descartados por duplicado con otro id: 4
-- Descartados por precio m2 extremo: 66
+- Descartados por precio m2 extremo: 64
 - Precios corregidos por punto de miles: 3
 
 ## Por sector (los 20 con más anuncios)
@@ -25,9 +25,9 @@ Reporte del 2026-10-28
 | Calderón (Carapungo) | 37 | 631 | 75,000 |
 | Iñaquito | 35 | 909 | 148,000 |
 | Tumbaco | 33 | 813 | 185,000 |
-| Quito Tenis | 32 | 743 | 198,750 |
-| Cumbayá | 27 | 966 | 281,900 |
-| Rumipamba | 26 | 847 | 137,500 |
+| Quito Tenis | 32 | 749 | 198,750 |
+| Rumipamba | 27 | 857 | 135,000 |
+| Cumbayá | 26 | 984 | 265,950 |
 | El Condado | 26 | 606 | 145,000 |
 | Bellavista | 25 | 888 | 250,000 |
 | Carcelén | 23 | 553 | 86,000 |
@@ -42,7 +42,7 @@ Reporte del 2026-10-28
 | Quitumbe | 12 | 494 | 56,000 |
 | Turubamba | 12 | 443 | 47,500 |
 
-![Precio por m²](precio_m2_2026-10-28.png)
+![Precio por m²](precio_m2_2026-10-29.png)
 
 ## El entorno económico del Ecuador
 - Inflación anual (Banco Mundial): 0.7% (2025)
