@@ -239,3 +239,17 @@
 {"momento_utc": "2026-10-30T16:58:47+00:00", "corrida": "41094427848", "nivel": "INFO", "tarea": "reporte_pdf", "evento": "PDF generado", "archivo": "reporte_2026-10-30.pdf", "paginas": 2, "kb": 72}
 {"momento_utc": "2026-10-30T16:58:47+00:00", "corrida": "41094427848", "nivel": "INFO", "tarea": "reportar_pdf", "evento": "terminó bien", "intentos": 1, "segundos": 1.1}
 {"momento_utc": "2026-10-30T16:58:47+00:00", "corrida": "41094427848", "nivel": "INFO", "tarea": "monitoreo", "evento": "semáforo VERDE: todo bien con datos reales"}
+{"momento_utc": "2026-10-31T15:57:48+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "renovar_respaldo", "evento": "copia de seguridad actualizada con datos reales", "fuentes": "remax"}
+{"momento_utc": "2026-10-31T15:57:55+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "pipeline", "evento": "inicio de la corrida", "modo": "auto", "simulacro": false}
+{"momento_utc": "2026-10-31T15:57:55+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "banco_mundial", "evento": "terminó bien", "intentos": 1, "segundos": 0.9}
+{"momento_utc": "2026-10-31T15:57:57+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "fmi", "evento": "terminó bien", "intentos": 1, "segundos": 1.9}
+{"momento_utc": "2026-10-31T15:59:41+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "remax", "evento": "terminó bien", "intentos": 1, "segundos": 103.7}
+{"momento_utc": "2026-10-31T15:59:41+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "limpiar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-31T15:59:41+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "control_calidad", "evento": "datos aprobados", "anuncios": 1071, "mediana_m2": 641}
+{"momento_utc": "2026-10-31T15:59:41+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "control_calidad", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-31T15:59:41+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "analizar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-31T15:59:41+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "renovar_respaldo", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-10-31T15:59:41+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "reportar", "evento": "terminó bien", "intentos": 1, "segundos": 0.2}
+{"momento_utc": "2026-10-31T15:59:43+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "reporte_pdf", "evento": "PDF generado", "archivo": "reporte_2026-10-31.pdf", "paginas": 2, "kb": 72}
+{"momento_utc": "2026-10-31T15:59:43+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "reportar_pdf", "evento": "terminó bien", "intentos": 1, "segundos": 1.2}
+{"momento_utc": "2026-10-31T15:59:43+00:00", "corrida": "41217295020", "nivel": "INFO", "tarea": "monitoreo", "evento": "semáforo VERDE: todo bien con datos reales"}
