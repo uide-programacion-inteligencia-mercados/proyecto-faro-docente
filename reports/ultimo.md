@@ -1,17 +1,17 @@
 # Observatorio de Referencia · Mercado inmobiliario de Quito
-Reporte del 2026-11-01
+Reporte del 2026-11-02
 
 ## Lo más importante
 - Anuncios analizados: **1068**
-- Precio mediano por m²: **USD 641** (+0.14 % contra la corrida anterior)
+- Precio mediano por m²: **USD 641** (+0.00 % contra la corrida anterior)
 - Sin alerta. (umbral: 5.0 %)
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2345; quedaron 1068 tras la limpieza.
-- Descartados por no es venta: 389
-- Descartados por no es vivienda: 692
-- Descartados por no esta activo: 118
+- Anuncios recibidos: 2341; quedaron 1068 tras la limpieza.
+- Descartados por no es venta: 387
+- Descartados por no es vivienda: 691
+- Descartados por no esta activo: 117
 - Descartados por sin precio: 2
 - Descartados por area imposible: 8
 - Descartados por duplicado con otro id: 4
@@ -42,7 +42,7 @@ Reporte del 2026-11-01
 | Quitumbe | 12 | 494 | 56,000 |
 | Turubamba | 12 | 443 | 47,500 |
 
-![Precio por m²](precio_m2_2026-11-01.png)
+![Precio por m²](precio_m2_2026-11-02.png)
 
 ## El entorno económico del Ecuador
 - Inflación anual (Banco Mundial): 0.7% (2025)
