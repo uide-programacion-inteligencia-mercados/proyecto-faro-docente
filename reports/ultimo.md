@@ -1,17 +1,17 @@
 # Observatorio de Referencia · Mercado inmobiliario de Quito
-Reporte del 2026-11-02
+Reporte del 2026-11-03
 
 ## Lo más importante
-- Anuncios analizados: **1068**
-- Precio mediano por m²: **USD 641** (+0.00 % contra la corrida anterior)
+- Anuncios analizados: **1066**
+- Precio mediano por m²: **USD 643** (+0.17 % contra la corrida anterior)
 - Sin alerta. (umbral: 5.0 %)
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2341; quedaron 1068 tras la limpieza.
+- Anuncios recibidos: 2336; quedaron 1066 tras la limpieza.
 - Descartados por no es venta: 387
-- Descartados por no es vivienda: 691
-- Descartados por no esta activo: 117
+- Descartados por no es vivienda: 689
+- Descartados por no esta activo: 116
 - Descartados por sin precio: 2
 - Descartados por area imposible: 8
 - Descartados por duplicado con otro id: 4
@@ -31,7 +31,7 @@ Reporte del 2026-11-02
 | Bellavista | 25 | 888 | 250,000 |
 | El Condado | 23 | 590 | 145,000 |
 | Cotocollao | 22 | 737 | 72,832 |
-| Carcelén | 22 | 550 | 82,500 |
+| Carcelén | 21 | 577 | 86,000 |
 | Cochapamba | 19 | 556 | 120,000 |
 | Ponceano | 15 | 726 | 92,000 |
 | Kennedy | 15 | 691 | 110,000 |
@@ -42,7 +42,7 @@ Reporte del 2026-11-02
 | Quitumbe | 12 | 494 | 56,000 |
 | Turubamba | 12 | 443 | 47,500 |
 
-![Precio por m²](precio_m2_2026-11-02.png)
+![Precio por m²](precio_m2_2026-11-03.png)
 
 ## El entorno económico del Ecuador
 - Inflación anual (Banco Mundial): 0.7% (2025)
