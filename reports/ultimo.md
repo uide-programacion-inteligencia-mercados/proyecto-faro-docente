@@ -1,49 +1,49 @@
 # Observatorio de Referencia · Mercado inmobiliario de Quito
-Reporte del 2026-11-05
+Reporte del 2026-11-06
 
 ## Lo más importante
-- Anuncios analizados: **1077**
-- Precio mediano por m²: **USD 645** (+0.19 % contra la corrida anterior)
+- Anuncios analizados: **1079**
+- Precio mediano por m²: **USD 648** (+0.56 % contra la corrida anterior)
 - Sin alerta. (umbral: 5.0 %)
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2362; quedaron 1077 tras la limpieza.
-- Descartados por no es venta: 398
-- Descartados por no es vivienda: 692
-- Descartados por no esta activo: 116
+- Anuncios recibidos: 2371; quedaron 1079 tras la limpieza.
+- Descartados por no es venta: 400
+- Descartados por no es vivienda: 699
+- Descartados por no esta activo: 117
 - Descartados por sin precio: 2
 - Descartados por area imposible: 8
-- Descartados por duplicado con otro id: 6
+- Descartados por duplicado con otro id: 4
 - Descartados por precio m2 imposible: 1
-- Descartados por precio m2 extremo: 62
+- Descartados por precio m2 extremo: 61
 - Precios corregidos por punto de miles: 3
 
 ## Por sector (los 20 con más anuncios)
 | Sector | Anuncios | Mediana USD/m² | Precio mediano USD |
 |---|---|---|---|
-| Conocoto | 55 | 556 | 105,000 |
+| Conocoto | 54 | 556 | 105,000 |
 | Calderón (Carapungo) | 38 | 625 | 75,232 |
+| Iñaquito | 34 | 965 | 140,000 |
 | Tumbaco | 33 | 813 | 185,000 |
-| Iñaquito | 32 | 965 | 144,000 |
 | Quito Tenis | 30 | 748 | 204,250 |
 | Cumbayá | 27 | 941 | 281,900 |
-| Rumipamba | 27 | 857 | 135,000 |
 | Bellavista | 26 | 892 | 250,000 |
+| Rumipamba | 26 | 860 | 135,000 |
 | Cotocollao | 22 | 697 | 72,832 |
 | El Condado | 22 | 593 | 145,000 |
 | Carcelén | 20 | 550 | 87,500 |
 | Cochapamba | 19 | 556 | 120,000 |
+| Ponceano | 16 | 740 | 91,000 |
 | Kennedy | 16 | 665 | 109,000 |
-| Ponceano | 15 | 726 | 92,000 |
+| San Isidro Del Inca | 15 | 748 | 112,900 |
 | Pomasqui | 15 | 570 | 115,000 |
-| San Isidro Del Inca | 14 | 771 | 113,950 |
-| Alangasí | 13 | 529 | 215,000 |
+| Quitumbe | 13 | 485 | 57,000 |
+| Alangasí | 12 | 533 | 255,000 |
 | San Antonio | 12 | 505 | 91,500 |
-| Quitumbe | 12 | 494 | 56,000 |
 | Turubamba | 12 | 443 | 47,500 |
 
-![Precio por m²](precio_m2_2026-11-05.png)
+![Precio por m²](precio_m2_2026-11-06.png)
 
 ## El entorno económico del Ecuador
 - Inflación anual (Banco Mundial): 0.7% (2025)
