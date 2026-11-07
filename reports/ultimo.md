@@ -1,30 +1,30 @@
 # Observatorio de Referencia · Mercado inmobiliario de Quito
-Reporte del 2026-11-06
+Reporte del 2026-11-07
 
 ## Lo más importante
-- Anuncios analizados: **1079**
-- Precio mediano por m²: **USD 648** (+0.56 % contra la corrida anterior)
+- Anuncios analizados: **1073**
+- Precio mediano por m²: **USD 645** (-0.56 % contra la corrida anterior)
 - Sin alerta. (umbral: 5.0 %)
 
 
 ## Calidad de los datos
-- Anuncios recibidos: 2371; quedaron 1079 tras la limpieza.
-- Descartados por no es venta: 400
-- Descartados por no es vivienda: 699
+- Anuncios recibidos: 2359; quedaron 1073 tras la limpieza.
+- Descartados por no es venta: 399
+- Descartados por no es vivienda: 693
 - Descartados por no esta activo: 117
 - Descartados por sin precio: 2
 - Descartados por area imposible: 8
 - Descartados por duplicado con otro id: 4
 - Descartados por precio m2 imposible: 1
-- Descartados por precio m2 extremo: 61
+- Descartados por precio m2 extremo: 62
 - Precios corregidos por punto de miles: 3
 
 ## Por sector (los 20 con más anuncios)
 | Sector | Anuncios | Mediana USD/m² | Precio mediano USD |
 |---|---|---|---|
-| Conocoto | 54 | 556 | 105,000 |
-| Calderón (Carapungo) | 38 | 625 | 75,232 |
-| Iñaquito | 34 | 965 | 140,000 |
+| Conocoto | 53 | 556 | 105,000 |
+| Calderón (Carapungo) | 37 | 631 | 75,465 |
+| Iñaquito | 33 | 949 | 140,000 |
 | Tumbaco | 33 | 813 | 185,000 |
 | Quito Tenis | 30 | 748 | 204,250 |
 | Cumbayá | 27 | 941 | 281,900 |
@@ -43,7 +43,7 @@ Reporte del 2026-11-06
 | San Antonio | 12 | 505 | 91,500 |
 | Turubamba | 12 | 443 | 47,500 |
 
-![Precio por m²](precio_m2_2026-11-06.png)
+![Precio por m²](precio_m2_2026-11-07.png)
 
 ## El entorno económico del Ecuador
 - Inflación anual (Banco Mundial): 0.7% (2025)
