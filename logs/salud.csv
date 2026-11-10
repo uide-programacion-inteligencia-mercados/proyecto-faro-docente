@@ -29,3 +29,4 @@ fecha_utc,corrida,estado,motivo,segundos,tareas_ok,tareas_fallo,tareas_omitidas,
 2026-11-07T16:47:56+00:00,42392896634,amarillo,banco_mundial: la fuente no contestó: usé el respaldo (plan B),109.6,9,0,0,True,0
 2026-11-08T16:58:03+00:00,42502353501,verde,todo bien con datos reales,108.5,9,0,0,False,0
 2026-11-09T21:21:38+00:00,42701296253,amarillo,banco_mundial: la fuente no contestó: usé el respaldo (plan B),135.5,9,0,0,True,0
+2026-11-10T18:31:37+00:00,42875756239,verde,todo bien con datos reales,89.7,9,0,0,False,0
