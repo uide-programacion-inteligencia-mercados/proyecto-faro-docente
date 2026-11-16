@@ -35,3 +35,4 @@ fecha_utc,corrida,estado,motivo,segundos,tareas_ok,tareas_fallo,tareas_omitidas,
 2026-11-13T18:27:36+00:00,43482445742,amarillo,banco_mundial: la fuente no contestó: usé el respaldo (plan B),121.8,9,0,0,True,0
 2026-11-14T16:52:00+00:00,43617890042,amarillo,banco_mundial: la fuente no contestó: usé el respaldo (plan B); remax: la fuente no contestó: usé el respaldo (plan B),1.9,9,0,0,True,1
 2026-11-15T17:35:46+00:00,43741929325,amarillo,remax: la fuente no contestó: usé el respaldo (plan B),3.0,9,0,0,True,2
+2026-11-16T20:51:20+00:00,43953759889,amarillo,remax: la fuente no contestó: usé el respaldo (plan B),47.7,9,0,0,True,3
