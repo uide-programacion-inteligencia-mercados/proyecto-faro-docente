@@ -1,12 +1,12 @@
 {
-  "corrida": "43953759889",
-  "inicio_utc": "2026-11-16T20:51:20+00:00",
+  "corrida": "44160833191",
+  "inicio_utc": "2026-11-17T19:40:20+00:00",
   "tareas": [
     {
       "tarea": "banco_mundial",
       "estado": "ok",
       "intentos": 1,
-      "segundos": 46.0
+      "segundos": 30.2
     },
     {
       "tarea": "fmi",
@@ -18,7 +18,7 @@
       "tarea": "remax",
       "estado": "ok",
       "intentos": 1,
-      "segundos": 0.3
+      "segundos": 0.0
     },
     {
       "tarea": "limpiar",
