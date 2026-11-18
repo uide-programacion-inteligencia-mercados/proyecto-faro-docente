@@ -37,3 +37,4 @@ fecha_utc,corrida,estado,motivo,segundos,tareas_ok,tareas_fallo,tareas_omitidas,
 2026-11-15T17:35:46+00:00,43741929325,amarillo,remax: la fuente no contestó: usé el respaldo (plan B),3.0,9,0,0,True,2
 2026-11-16T20:51:20+00:00,43953759889,amarillo,remax: la fuente no contestó: usé el respaldo (plan B),47.7,9,0,0,True,3
 2026-11-17T19:40:20+00:00,44160833191,rojo,4 días sin dato real (máximo 3): fallo silencioso,31.5,9,0,0,True,4
+2026-11-18T19:16:33+00:00,44378503784,rojo,5 días sin dato real (máximo 3): fallo silencioso,31.7,9,0,0,True,5
