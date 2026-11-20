@@ -39,3 +39,4 @@ fecha_utc,corrida,estado,motivo,segundos,tareas_ok,tareas_fallo,tareas_omitidas,
 2026-11-17T19:40:20+00:00,44160833191,rojo,4 días sin dato real (máximo 3): fallo silencioso,31.5,9,0,0,True,4
 2026-11-18T19:16:33+00:00,44378503784,rojo,5 días sin dato real (máximo 3): fallo silencioso,31.7,9,0,0,True,5
 2026-11-19T19:23:49+00:00,44597635375,rojo,6 días sin dato real (máximo 3): fallo silencioso,33.9,9,0,0,True,6
+2026-11-20T18:59:00+00:00,44797770509,rojo,7 días sin dato real (máximo 3): fallo silencioso,3.6,9,0,0,True,7
