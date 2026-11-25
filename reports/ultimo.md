@@ -1,5 +1,5 @@
 # Observatorio de Referencia · Mercado inmobiliario de Quito
-Reporte del 2026-11-24
+Reporte del 2026-11-25
 
 ## Lo más importante
 - Anuncios analizados: **106**
@@ -28,7 +28,7 @@ Reporte del 2026-11-24
 | Conocoto | 3 | 499 | 100,000 |
 | San Antonio | 3 | 395 | 110,000 |
 
-![Precio por m²](precio_m2_2026-11-24.png)
+![Precio por m²](precio_m2_2026-11-25.png)
 
 ## El entorno económico del Ecuador
 - Inflación anual (Banco Mundial): 0.7% (2025)
