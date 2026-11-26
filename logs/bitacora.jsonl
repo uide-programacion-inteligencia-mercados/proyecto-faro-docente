@@ -623,3 +623,18 @@
 {"momento_utc": "2026-11-25T20:23:55+00:00", "corrida": "45694499717", "nivel": "INFO", "tarea": "reporte_pdf", "evento": "PDF generado", "archivo": "reporte_2026-11-25.pdf", "paginas": 2, "kb": 62}
 {"momento_utc": "2026-11-25T20:23:55+00:00", "corrida": "45694499717", "nivel": "INFO", "tarea": "reportar_pdf", "evento": "terminó bien", "intentos": 1, "segundos": 0.7}
 {"momento_utc": "2026-11-25T20:23:55+00:00", "corrida": "45694499717", "nivel": "ERROR", "tarea": "monitoreo", "evento": "semáforo ROJO: 12 días sin dato real (máximo 3): fallo silencioso"}
+{"momento_utc": "2026-11-26T20:00:14+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "renovar_respaldo", "evento": "copia de seguridad actualizada con datos reales", "fuentes": "remax"}
+{"momento_utc": "2026-11-26T20:00:20+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "pipeline", "evento": "inicio de la corrida", "modo": "auto", "simulacro": false}
+{"momento_utc": "2026-11-26T20:00:20+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "banco_mundial", "evento": "terminó bien", "intentos": 1, "segundos": 0.5}
+{"momento_utc": "2026-11-26T20:00:21+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "fmi", "evento": "terminó bien", "intentos": 1, "segundos": 0.3}
+{"momento_utc": "2026-11-26T20:00:21+00:00", "corrida": "45887732074", "nivel": "WARNING", "tarea": "remax", "evento": "la fuente no contestó: usé el respaldo (plan B)", "error": "403 Client Error: Forbidden for url: https://api-ec.redremax.com/remaxweb-ec/api/listings/findAllWithEntrepreneurships?page=0&pageSize=100&sort=-createdAt&in=operationId%3A1%2C2"}
+{"momento_utc": "2026-11-26T20:00:21+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "remax", "evento": "terminó bien", "intentos": 1, "segundos": 0.1}
+{"momento_utc": "2026-11-26T20:00:21+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "limpiar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-11-26T20:00:21+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "control_calidad", "evento": "datos aprobados", "anuncios": 106, "mediana_m2": 605}
+{"momento_utc": "2026-11-26T20:00:21+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "control_calidad", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-11-26T20:00:21+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "analizar", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-11-26T20:00:21+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "renovar_respaldo", "evento": "terminó bien", "intentos": 1, "segundos": 0.0}
+{"momento_utc": "2026-11-26T20:00:21+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "reportar", "evento": "terminó bien", "intentos": 1, "segundos": 0.1}
+{"momento_utc": "2026-11-26T20:00:22+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "reporte_pdf", "evento": "PDF generado", "archivo": "reporte_2026-11-26.pdf", "paginas": 2, "kb": 62}
+{"momento_utc": "2026-11-26T20:00:22+00:00", "corrida": "45887732074", "nivel": "INFO", "tarea": "reportar_pdf", "evento": "terminó bien", "intentos": 1, "segundos": 1.1}
+{"momento_utc": "2026-11-26T20:00:22+00:00", "corrida": "45887732074", "nivel": "ERROR", "tarea": "monitoreo", "evento": "semáforo ROJO: 13 días sin dato real (máximo 3): fallo silencioso"}
